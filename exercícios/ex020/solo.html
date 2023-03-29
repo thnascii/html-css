@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu teste solo de HOVER</title>
+    <style>
+           body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div > p{
+            display: none;
+        }
+
+        div {
+            display: inline-block;
+            background-color: rgb(249, 222, 222);
+            width: 300px;
+            height: 200px;
+            text-align: center;  
+                      
+        }        
+
+        div:hover > p {
+            display: block;
+            color: rgb(246, 2, 2);
+        }
+
+        div:hover{
+            color: rgb(34, 10, 113);
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu teste solo de hover</h1>
+
+    <div>
+        Menu 1
+        <p>Agasalho</p>
+        <p>Camisetas</p>
+        <p>Bermuda</p>
+    </div>
+</body>
+</html>
